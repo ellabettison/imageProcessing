@@ -6,31 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/libjpeg/jpeg-6b/jmorecfg.h
-
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/edgeDetection.h
-imgStruct.h
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/imgStruct.h
-
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/imgStruct.h
-../libjpeg/jpeg-6b/jmorecfg.h
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/libjpeg/jpeg-6b/jmorecfg.h
-
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/main.c
+C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/fileMan/fileAccess.c
+fileAccess.h
+C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/fileMan/fileAccess.h
 stdio.h
 -
 stdlib.h
 -
-utils.h
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/utils.h
-edgeDetection.h
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/edgeDetection.h
-../libjpeg/jpeg-6b/jmorecfg.h
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/libjpeg/jpeg-6b/jmorecfg.h
-imgStruct.h
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/imgStruct.h
+stdint.h
+-
 
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/utils.h
-../libjpeg/jpeg-6b/jmorecfg.h
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/libjpeg/jpeg-6b/jmorecfg.h
+C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/fileMan/fileAccess.h
+stdint.h
+-
 

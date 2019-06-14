@@ -149,6 +149,33 @@ src/edgeDetection.c.s:
 	$(MAKE) -f CMakeFiles\imageProcessing.dir\build.make CMakeFiles/imageProcessing.dir/src/edgeDetection.c.s
 .PHONY : src/edgeDetection.c.s
 
+src/fileMan/fileAccess.obj: src/fileMan/fileAccess.c.obj
+
+.PHONY : src/fileMan/fileAccess.obj
+
+# target to build an object file
+src/fileMan/fileAccess.c.obj:
+	$(MAKE) -f CMakeFiles\imageProcessing.dir\build.make CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.obj
+.PHONY : src/fileMan/fileAccess.c.obj
+
+src/fileMan/fileAccess.i: src/fileMan/fileAccess.c.i
+
+.PHONY : src/fileMan/fileAccess.i
+
+# target to preprocess a source file
+src/fileMan/fileAccess.c.i:
+	$(MAKE) -f CMakeFiles\imageProcessing.dir\build.make CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.i
+.PHONY : src/fileMan/fileAccess.c.i
+
+src/fileMan/fileAccess.s: src/fileMan/fileAccess.c.s
+
+.PHONY : src/fileMan/fileAccess.s
+
+# target to generate assembly for a file
+src/fileMan/fileAccess.c.s:
+	$(MAKE) -f CMakeFiles\imageProcessing.dir\build.make CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.s
+.PHONY : src/fileMan/fileAccess.c.s
+
 src/main.obj: src/main.c.obj
 
 .PHONY : src/main.obj
@@ -242,6 +269,9 @@ help:
 	@echo ... src/edgeDetection.obj
 	@echo ... src/edgeDetection.i
 	@echo ... src/edgeDetection.s
+	@echo ... src/fileMan/fileAccess.obj
+	@echo ... src/fileMan/fileAccess.i
+	@echo ... src/fileMan/fileAccess.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

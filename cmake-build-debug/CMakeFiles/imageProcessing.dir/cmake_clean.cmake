@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/imageProcessing.dir/src/masks.c.obj"
   "CMakeFiles/imageProcessing.dir/src/utils.c.obj"
   "CMakeFiles/imageProcessing.dir/src/edgeDetection.c.obj"
+  "CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.obj"
   "imageProcessing.pdb"
   "imageProcessing.exe"
   "imageProcessing.exe.manifest"

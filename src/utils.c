@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include "utils.h"
 #include "main.h"
-#include "../libjpeg/jpeg-6b/jpeglib.h"
+//#include "../libjpeg/jpeg-6b/jpeglib.h"
 
 //JSAMPLE * imageBuffer;
-
+/*
 void writeImage(char * fileName, unsigned char *imageBuffer){
     // contains jpeg compression parameters
     struct jpeg_compress_struct cinfo;
@@ -44,13 +44,14 @@ void writeImage(char * fileName, unsigned char *imageBuffer){
     // JSAMPLEs per row in image_buffer
     rowStride = width * 3;
 
-    /*
+    ******************
     while (cinfo.next_scanline < cinfo.image_height){
         // jpeg_write_scanlines takes in an array of pointers to scanlines
         // passes array of one element at a time
         rowPointer[0] = (JSAMPROW) & imageBuffer[cinfo.next_scanline * rowStride];
         (void) jpeg_write_scanlines(&cinfo, rowPointer, 1);
-    }*/
+    }
+    ******************
 
     while (cinfo.next_scanline < cinfo.image_height){
         // jpeg_write_scanlines takes in an array of pointers to scanlines
@@ -106,4 +107,4 @@ unsigned char * readImage(char * fileName){
     fclose(infile);
     return imageBuffer;
 
-}
+}*/
