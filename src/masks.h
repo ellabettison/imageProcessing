@@ -1,0 +1,7 @@
+
+#ifndef IMAGEPROCESSING_MASKS_H
+#define IMAGEPROCESSING_MASKS_H
+
+short prewittMask[8][3][3];
+
+#endif //IMAGEPROCESSING_MASKS_H
