@@ -21,7 +21,7 @@ unsigned char ** readFile(char * filename) {
         unsigned char tmp;
 
         // storage for new image format
-        unsigned char newImg[size/3][3];
+        unsigned char ** newImg = (unsigned char **)malloc(size * sizeof(unsigned char));
 
     for(i = 0; i < size; i += 3)
         {
