@@ -3,31 +3,6 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-//short **allocate_image_array(length, width)
-//        long length, width;
-//{
-//    int i;
-//    short **the_array;
-//    the_array = malloc(length * sizeof(short *));
-//    for(i=0; i<length; i++){
-//        the_array[i] = malloc(width * sizeof(short ));
-//        if(strcmp((const char *) the_array[i], "\0")){
-//            printf("\n\tmalloc of the_image[%d] failed", i);
-//        } /* ends if */
-//    } /* ends loop over i */
-//    return(the_array);
-//}
-
-int free_image_array(the_array, length)
-        short **the_array;
-        long length;
-{
-    int i;
-    for(i=0; i<length; i++)
-        free(the_array[i]);
-    return(1);
-}
-
 uint8_t * readFile() {
     FILE *hFile;
     uint8_t Byte;
@@ -39,7 +14,10 @@ uint8_t * readFile() {
 
 
     Index = 0;
-    hFile = fopen("MyBMP.bmp", "r+b");
+    hFile = fopen("C:\\Users\\ellab\\Documents\\Computing\\cproj\\imageProcessing\\src\\tiger.bmp", "r+b");
+    if (!hFile){
+        printf("couldnt access file");
+    }
     fread(&Word, 2, 1, hFile); // BM signature
     Index += 2;
     fread(&Dword, 4, 1, hFile); // size of BMP in bytes

@@ -10,7 +10,6 @@ CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.obj
  C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/fileMan/fileAccess.c
  C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/fileMan/fileAccess.h
 CMakeFiles/imageProcessing.dir/src/main.c.obj
- C:/Users/ellab/Documents/Computing/cproj/imageProcessing/libjpeg/jpeg-6b/jmorecfg.h
  C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/edgeDetection.h
  C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/fileMan/fileAccess.h
  C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/imgStruct.h
@@ -19,7 +18,6 @@ CMakeFiles/imageProcessing.dir/src/main.c.obj
 CMakeFiles/imageProcessing.dir/src/masks.c.obj
  C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/masks.c
 CMakeFiles/imageProcessing.dir/src/utils.c.obj
- C:/Users/ellab/Documents/Computing/cproj/imageProcessing/libjpeg/jpeg-6b/jmorecfg.h
  C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/main.h
  C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/utils.c
  C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/utils.h
