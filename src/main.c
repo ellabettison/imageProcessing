@@ -29,7 +29,8 @@ void processImage(char *inFileName, char *outFileName, enum imgProcType type){
         case INVERT: invert(*structImageIn);
     }
 
-//    writeImage(outFileName, structImageOut->imgArray);
+
+    writeFile(outFileName, NULL);
 }
 
 int main() {

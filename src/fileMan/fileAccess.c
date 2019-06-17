@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
+#include <string.h>
+
 #include "../imgStruct.h"
 
 struct imgColour *readFile(char * filename) {
@@ -63,9 +65,12 @@ int writeFile(char * filename, struct img image) {
         return 0;
     }
 
-    
+    int headerSize = sizeof(image.header);
+    image.header = realloc(image.header, sizeof(image.imgArray) + sizeof(image.header));
+    memcpy(image.header + headerSize, image.imgArray, sizeof(*image.imgArray));
 
-    fwrite(&image, sizeof(unsigned char), sizeof(image.imgArray), f);
+    fwrite(image.header, sizeof(unsigned char), sizeof(image.imgArray), f);
+    fclose(f);
 
     return 1;
 }
