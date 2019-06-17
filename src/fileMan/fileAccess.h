@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-uint8_t * readFile();
+unsigned char ** readFile(char * filename);
 
 /*
 // * Windows BMP file definitions for OpenGL.

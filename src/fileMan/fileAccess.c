@@ -3,48 +3,38 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-uint8_t * readFile() {
-    FILE *hFile;
-    uint8_t Byte;
-    uint16_t Word;
-    uint32_t Dword;
-    uint32_t ImageSize;
-    uint32_t Index;
-    uint32_t ImageStart;
+unsigned char ** readFile(char * filename) {
+
+        int i;
+        FILE* f = fopen(filename, "rb");
+        unsigned char info[54];
+        fread(info, sizeof(unsigned char), 54, f); // read the 54-byte header
+
+        // extract image height and width from header
+        int width = *(int*)&info[18];
+        int height = *(int*)&info[22];
+
+        int size = 3 * width * height;
+        unsigned char* data = malloc((size_t) size); // allocate 3 bytes per pixel
+        fread(data, sizeof(unsigned char), (size_t) size, f); // read the rest of the data at once
+        fclose(f);
+        unsigned char tmp;
+
+        // storage for new image format
+        unsigned char newImg[size/3][3];
+
+    for(i = 0; i < size; i += 3)
+        {
+        // converts BGR to RGB
+            tmp = data[i];
+            data[i] = data[i+2];
+            data[i+2] = tmp;
+            newImg[i/3][0] = data[i];
+            newImg[i/3][1] = data[i+1];
+            newImg[i/3][2] = data[i+2];
+            printf("data i : %u, data i+2 = %u", data[i], data[i+2]);
+        }
 
 
-    Index = 0;
-    hFile = fopen("C:\\Users\\ellab\\Documents\\Computing\\cproj\\imageProcessing\\src\\tiger.bmp", "r+b");
-    if (!hFile){
-        printf("couldnt access file");
+        return newImg;
     }
-    fread(&Word, 2, 1, hFile); // BM signature
-    Index += 2;
-    fread(&Dword, 4, 1, hFile); // size of BMP in bytes
-    Index += 4;
-    fread(&Dword, 4, 1, hFile); // reserved fields
-    Index += 4;
-    fread(&ImageStart, 4, 1, hFile); // start of image file
-    Index += 4;
-    fread(&Dword, 4, 1, hFile); // BITMAPHEADERINFO size, always 40
-    Index += 4;
-    fread(&ImageSize, 4, 1, hFile);
-    fread(&Dword, 4, 1, hFile);
-    ImageSize *= Dword; // calculate the number of pixels in the raw image
-    Index += 8;
-    fread(&Dword, 4, 1, hFile);
-    ImageSize *= Dword; // adjust for the number of planes in the raw image
-    fread(&Dword, 4, 1, hFile);
-    ImageSize *= Dword; // calculate the number of bits in the raw image
-    ImageSize /= 8;  //calculate bytes
-    Index += 8;
-    while (Index < ImageStart) {
-        fread(&Byte, 1, 1, hFile);
-        Index++;
-    }
-
-    uint8_t *Buffer = malloc(ImageSize);
-    fread(Buffer, ImageSize, 1, hFile);
-    fclose(hFile);
-    return Buffer;
-}

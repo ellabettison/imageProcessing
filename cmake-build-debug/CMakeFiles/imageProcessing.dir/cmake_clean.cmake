@@ -1,13 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/imageProcessing.dir/src/main.c.obj"
-  "CMakeFiles/imageProcessing.dir/src/masks.c.obj"
-  "CMakeFiles/imageProcessing.dir/src/utils.c.obj"
-  "CMakeFiles/imageProcessing.dir/src/edgeDetection.c.obj"
-  "CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.obj"
+  "CMakeFiles/imageProcessing.dir/src/main.c.o"
+  "CMakeFiles/imageProcessing.dir/src/masks.c.o"
+  "CMakeFiles/imageProcessing.dir/src/utils.c.o"
+  "CMakeFiles/imageProcessing.dir/src/edgeDetection.c.o"
+  "CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.o"
   "imageProcessing.pdb"
-  "imageProcessing.exe"
-  "imageProcessing.exe.manifest"
-  "libimageProcessing.dll.a"
+  "imageProcessing"
 )
 
 # Per-language clean rules from dependency scanning.

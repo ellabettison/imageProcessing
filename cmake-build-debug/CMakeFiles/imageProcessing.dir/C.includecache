@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/fileMan/fileAccess.c
+/homes/efb4518/Documents/picproc/imageProcessing/src/fileMan/fileAccess.c
 fileAccess.h
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/fileMan/fileAccess.h
+/homes/efb4518/Documents/picproc/imageProcessing/src/fileMan/fileAccess.h
 stdio.h
 -
 stdlib.h
@@ -16,7 +16,7 @@ stdlib.h
 stdint.h
 -
 
-C:/Users/ellab/Documents/Computing/cproj/imageProcessing/src/fileMan/fileAccess.h
+/homes/efb4518/Documents/picproc/imageProcessing/src/fileMan/fileAccess.h
 stdint.h
 -
 
