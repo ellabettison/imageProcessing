@@ -6,5 +6,6 @@
 
 void initialiseImg(struct img *image, int width, int height);
 void initialiseImgCol(struct imgColour *image, int width, int height);
+struct img *imgColourLinearisation(struct imgColour image);
 
 #endif

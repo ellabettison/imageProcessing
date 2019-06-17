@@ -14,8 +14,8 @@ struct imgColour *readFile(char * filename) {
             printf("could not access file");
             return NULL;
         }
-        unsigned char *info = malloc(54* sizeof(unsigned char));
-        fread(&info, sizeof(unsigned char), 54, f); // read the 54-byte header
+        unsigned char *info = calloc(54 , sizeof(unsigned char));
+        fread(info, sizeof(unsigned char), 54, f); // read the 54-byte header
 
         // extract image height and width from header
         int width = *(int*)&info[18];
@@ -45,7 +45,7 @@ struct imgColour *readFile(char * filename) {
         newImg[i/3][0] = data[i];
         newImg[i/3][1] = data[i+1];
         newImg[i/3][2] = data[i+2];
-        printf("data i : %u, data i+2 = %u", data[i], data[i+2]);
+        //printf("data i : %u, data i+2 = %u", data[i], data[i+2]);
     }
 
         struct imgColour *newImgStruct = malloc(sizeof(struct imgColour));
@@ -65,11 +65,12 @@ int writeFile(char * filename, struct img image) {
         return 0;
     }
 
-    int headerSize = sizeof(image.header);
-    image.header = realloc(image.header, sizeof(image.imgArray) + sizeof(image.header));
-    memcpy(image.header + headerSize, image.imgArray, sizeof(*image.imgArray));
+    int headerSize = 54;
+    //image.header = realloc(image.header, (size_t) (image.height * image.width * 3 + headerSize));
+    //memcpy(image.header + headerSize, image.imgArray, sizeof(image.imgArray));
 
-    fwrite(image.header, sizeof(unsigned char), sizeof(image.imgArray), f);
+    fwrite(image.header, sizeof(unsigned char), 54 , f);
+    fwrite(image.imgArray, sizeof(unsigned char), (size_t) image.width * image.height * 3, f);
     fclose(f);
 
     return 1;

@@ -13,6 +13,8 @@ imgStruct.h
 /homes/efb4518/Documents/picproc/imageProcessing/src/fileMan/fileAccess.h
 stdint.h
 -
+../imgStruct.h
+/homes/efb4518/Documents/picproc/imageProcessing/src/imgStruct.h
 
 /homes/efb4518/Documents/picproc/imageProcessing/src/greyscale.h
 imgStruct.h

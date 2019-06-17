@@ -15,8 +15,11 @@ int width = 313;
 void processImage(char *inFileName, char *outFileName, enum imgProcType type){
     struct imgColour *structImageIn= readFile(inFileName);
     struct imgColour *structImageOut = malloc(sizeof(struct imgColour));
-
     initialiseImgCol(structImageOut, structImageIn->width, structImageIn->height);
+
+    struct img *linearImageOut = malloc(sizeof(struct img));
+    initialiseImg(linearImageOut, structImageIn->width, structImageIn->height);
+    linearImageOut->header = structImageIn->header;
 
     switch (type) {
         case EDGE: ;
@@ -25,15 +28,18 @@ void processImage(char *inFileName, char *outFileName, enum imgProcType type){
 
             greyscale(*structImageIn, *greyImgOut);
             detectEdges(greyImgOut, (struct img *) structImageOut);
+
+
             break;
-        case INVERT: invert(*structImageIn);
+        case INVERT:
+            //invert(*structImageIn);
+            linearImageOut = imgColourLinearisation(*structImageIn);
     }
 
-
-    writeFile(outFileName, NULL);
+    writeFile(outFileName, *linearImageOut);
 }
 
 int main() {
-    processImage("/homes/efb4518/Documents/picproc/imageProcessing/src/tiger.bmp", "outpic.bmp", INVERT);
+    processImage("/homes/efb4518/Documents/picproc/imageProcessing/src/tiger.bmp", "/homes/efb4518/Documents/picproc/imageProcessing/src/outpic.bmp", INVERT);
     return 0;
 }
