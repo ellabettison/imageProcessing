@@ -1,4 +1,4 @@
-# Install script for directory: /homes/efb4518/Documents/picproc/imageProcessing
+# Install script for directory: /homes/rd3918/CLionProjects/imageProcessing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

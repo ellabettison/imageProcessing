@@ -48,10 +48,10 @@ RM = /usr/lib/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /homes/efb4518/Documents/picproc/imageProcessing
+CMAKE_SOURCE_DIR = /homes/rd3918/CLionProjects/imageProcessing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug
+CMAKE_BINARY_DIR = /homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/CMakeFiles /homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/CMakeFiles /homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,60 @@ src/fileMan/fileAccess.s: src/fileMan/fileAccess.c.s
 src/fileMan/fileAccess.c.s:
 	$(MAKE) -f CMakeFiles/imageProcessing.dir/build.make CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.s
 .PHONY : src/fileMan/fileAccess.c.s
+
+src/greyscale.o: src/greyscale.c.o
+
+.PHONY : src/greyscale.o
+
+# target to build an object file
+src/greyscale.c.o:
+	$(MAKE) -f CMakeFiles/imageProcessing.dir/build.make CMakeFiles/imageProcessing.dir/src/greyscale.c.o
+.PHONY : src/greyscale.c.o
+
+src/greyscale.i: src/greyscale.c.i
+
+.PHONY : src/greyscale.i
+
+# target to preprocess a source file
+src/greyscale.c.i:
+	$(MAKE) -f CMakeFiles/imageProcessing.dir/build.make CMakeFiles/imageProcessing.dir/src/greyscale.c.i
+.PHONY : src/greyscale.c.i
+
+src/greyscale.s: src/greyscale.c.s
+
+.PHONY : src/greyscale.s
+
+# target to generate assembly for a file
+src/greyscale.c.s:
+	$(MAKE) -f CMakeFiles/imageProcessing.dir/build.make CMakeFiles/imageProcessing.dir/src/greyscale.c.s
+.PHONY : src/greyscale.c.s
+
+src/inverter.o: src/inverter.c.o
+
+.PHONY : src/inverter.o
+
+# target to build an object file
+src/inverter.c.o:
+	$(MAKE) -f CMakeFiles/imageProcessing.dir/build.make CMakeFiles/imageProcessing.dir/src/inverter.c.o
+.PHONY : src/inverter.c.o
+
+src/inverter.i: src/inverter.c.i
+
+.PHONY : src/inverter.i
+
+# target to preprocess a source file
+src/inverter.c.i:
+	$(MAKE) -f CMakeFiles/imageProcessing.dir/build.make CMakeFiles/imageProcessing.dir/src/inverter.c.i
+.PHONY : src/inverter.c.i
+
+src/inverter.s: src/inverter.c.s
+
+.PHONY : src/inverter.s
+
+# target to generate assembly for a file
+src/inverter.c.s:
+	$(MAKE) -f CMakeFiles/imageProcessing.dir/build.make CMakeFiles/imageProcessing.dir/src/inverter.c.s
+.PHONY : src/inverter.c.s
 
 src/main.o: src/main.c.o
 
@@ -273,6 +327,12 @@ help:
 	@echo "... src/fileMan/fileAccess.o"
 	@echo "... src/fileMan/fileAccess.i"
 	@echo "... src/fileMan/fileAccess.s"
+	@echo "... src/greyscale.o"
+	@echo "... src/greyscale.i"
+	@echo "... src/greyscale.s"
+	@echo "... src/inverter.o"
+	@echo "... src/inverter.i"
+	@echo "... src/inverter.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

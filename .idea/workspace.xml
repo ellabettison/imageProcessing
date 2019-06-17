@@ -1,177 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="imageProcessing" targetName="imageProcessing" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c91d1d8e-4b37-4a87-993d-939aef3a7623" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/greyscale.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greyscale.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inverter.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inverter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/edgeDetection.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/masks.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/utils.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/imageProcessing.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/imageProcessing.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/imageProcessing.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/imageProcessing.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/ansi2knr.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/ansi2knr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/cderror.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/cdjpeg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/cdjpeg.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/change.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/cjpeg.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/cjpeg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/ckconfig.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/coderules.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/config.guess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/config.sub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/configure" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/djpeg.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/djpeg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/example.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/filelist.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/install-sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/install.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jcapimin.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jcapistd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jccoefct.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jccolor.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jcdctmgr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jchuff.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jchuff.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jcinit.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jcmainct.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jcmarker.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jcmaster.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jcomapi.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jconfig.bcc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jconfig.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jconfig.dj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jconfig.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jconfig.mac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jconfig.manx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jconfig.mc6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jconfig.sas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jconfig.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jconfig.vc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jconfig.vms" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jconfig.wat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jcparam.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jcphuff.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jcprepct.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jcsample.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jctrans.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdapimin.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdapistd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdatadst.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdatasrc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdcoefct.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdcolor.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdct.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jddctmgr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdhuff.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdhuff.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdinput.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdmainct.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdmarker.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdmaster.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdmerge.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdosabcc.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdosamsc.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdosaobj.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdphuff.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdpostct.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdsample.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jdtrans.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jerror.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jerror.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jfdctflt.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jfdctfst.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jfdctint.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jidctflt.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jidctfst.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jidctint.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jidctred.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jinclude.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jmemansi.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jmemdos.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jmemdosa.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jmemmac.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jmemmgr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jmemname.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jmemnobs.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jmemsys.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jmorecfg.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jpegint.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jpeglib.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jpegtran.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jpegtran.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jquant1.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jquant2.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jutils.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/jversion.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/libjpeg.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/ltconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/ltmain.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makcjpeg.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makdjpeg.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makeapps.ds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makefile.ansi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makefile.bcc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makefile.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makefile.dj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makefile.manx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makefile.mc6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makefile.mms" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makefile.sas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makefile.unix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makefile.vc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makefile.vms" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makefile.wat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makelib.ds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makeproj.mac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makljpeg.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/maktjpeg.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/makvms.opt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/rdbmp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/rdcolmap.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/rdgif.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/rdjpgcom.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/rdjpgcom.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/rdppm.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/rdrle.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/rdswitch.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/rdtarga.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/readme.dos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/structure.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/testimg.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/testimg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/testimg.ppm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/testimgp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/testorig.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/testprog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/transupp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/transupp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/usage.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/wizard.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/wrbmp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/wrgif.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/wrjpgcom.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/wrjpgcom.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/wrppm.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/wrrle.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg/jpeg-6b/wrtarga.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libjpeg2/jpegsrc.v9c.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fileMan/fileAccess.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileMan/fileAccess.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imgStruct.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/imgStruct.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masks.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/masks.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -184,34 +45,49 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-368531649">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="c" value="5" />
+          <entry key="h" value="8" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="ObjectiveC" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="c" value="222" />
+          <entry key="h" value="120" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="342" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fileMan/fileAccess.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
-              <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fileMan/fileAccess.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="280">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -219,33 +95,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#128#150#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="30" column="99" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edgeDetection.c">
+        <entry file="file://$PROJECT_DIR$/src/inverter.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/imgStruct.h">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inverter.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="105">
+              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/greyscale.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/greyscale.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -253,20 +154,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
+            <state relative-caret-position="645">
               <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils.h">
+        <entry file="file://$PROJECT_DIR$/src/imgStruct.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+            <state relative-caret-position="165">
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -279,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/masks.c" />
         <option value="$PROJECT_DIR$/src/masks.h" />
         <option value="$PROJECT_DIR$/libjpeg/jpeg-6b/jpeglib.h" />
         <option value="$PROJECT_DIR$/src/main.h" />
@@ -288,12 +185,23 @@
         <option value="$PROJECT_DIR$/src/utils.c" />
         <option value="$PROJECT_DIR$/src/utils.h" />
         <option value="$PROJECT_DIR$/src/fileMan/fileAccess.h" />
-        <option value="$PROJECT_DIR$/src/imgStruct.h" />
-        <option value="$PROJECT_DIR$/src/main.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/fileMan/fileAccess.c" />
+        <option value="$PROJECT_DIR$/src/masks.c" />
+        <option value="$PROJECT_DIR$/src/main.c" />
+        <option value="$PROJECT_DIR$/src/imgStruct.h" />
+        <option value="$PROJECT_DIR$/src/inverter.c" />
+        <option value="$PROJECT_DIR$/src/greyscale.h" />
+        <option value="$PROJECT_DIR$/src/inverter.h" />
+        <option value="$PROJECT_DIR$/src/greyscale.c" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="178" />
@@ -335,14 +243,176 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Course/cRegions" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Course/cRegions" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ellab\Documents\Computing\cproj\imageProcessing\src" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CMakeLists.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/C.includecache</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/DependInfo.cmake</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/build.make</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/cmake_clean.cmake</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/depend.internal</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/depend.make</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/flags.make</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/link.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/Makefile</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/imageProcessing.cbp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/fileMan/fileAccess.c</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/fileMan/fileAccess.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main.c</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/.nfs000000036017f81700001c25</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/.nfs00000003606b605c00001c2d</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/.nfs00000003609af06000001c28</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/CMakeCCompilerId.c</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.out</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/edgeDetection.c.o</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.o</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/main.c.o</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/masks.c.o</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/utils.c.o</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/imageProcessing</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeRCCompiler.cmake</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/linklibs.rsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/objects.a</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/objects1.rsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/edgeDetection.c.obj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.obj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/main.c.obj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/masks.c.obj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/utils.c.obj</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -356,12 +426,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.imageProcessing">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="imageProcessing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="imageProcessing" TARGET_NAME="imageProcessing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="imageProcessing" RUN_TARGET_NAME="imageProcessing">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.imageProcessing" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -376,31 +455,34 @@
       <workItem from="1560446659285" duration="15363000" />
       <workItem from="1560506889025" duration="6630000" />
       <workItem from="1560773816781" duration="1172000" />
+      <workItem from="1560775189949" duration="1535000" />
+      <workItem from="1560776893161" duration="1891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23165000" />
+    <option name="totallyTimeSpent" value="26591000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1034" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18461539" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18930481" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3283582" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4593698" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4593698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3283582" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.3280543" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.3283582" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32918552" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -432,14 +514,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/fileMan/fileAccess.c</url>
-          <line>40</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/edgeDetection.c</url>
           <line>8</line>
@@ -449,172 +529,120 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/masks.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.h">
+    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/README" />
+    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/jinclude.h" />
+    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/jcinit.c" />
+    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/jcmaster.c" />
+    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/cjpeg.c" />
+    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/cdjpeg.c" />
+    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/djpeg.c" />
+    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/jutils.c" />
+    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/jpeglib.h" />
+    <entry file="file://C:/Program Files/Haskell Platform/8.4.3/mingw/x86_64-w64-mingw32/include/wingdi.h" />
+    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/jmorecfg.h" />
+    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/jmemdos.c" />
+    <entry file="file://C:/Program Files/Haskell Platform/8.4.3/mingw/include/GL/freeglut_std.h" />
+    <entry file="file://$PROJECT_DIR$/src/fileMan/fileAccess.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="362" column="56" lean-forward="true" selection-start-line="362" selection-start-column="56" selection-end-line="362" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/jinclude.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/jcinit.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/jcmaster.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9785" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/cjpeg.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/cdjpeg.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/djpeg.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/jutils.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2373" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/jpeglib.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3740">
-          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/masks.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Haskell Platform/8.4.3/mingw/x86_64-w64-mingw32/include/wingdi.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11560">
-          <caret line="682" column="16" lean-forward="true" selection-start-line="682" selection-start-column="16" selection-end-line="682" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/jmorecfg.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="148" selection-start-line="148" selection-end-line="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libjpeg/jpeg-6b/jmemdos.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="152" column="50" selection-start-line="152" selection-start-column="50" selection-end-line="152" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edgeDetection.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Haskell Platform/8.4.3/mingw/include/GL/freeglut_std.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="618" column="6" lean-forward="true" selection-start-line="618" selection-start-column="6" selection-end-line="618" selection-end-column="6" />
-          <folding>
-            <element signature="e#25874#25890#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="135">
           <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/imgStruct.h">
+    <entry file="file://$PROJECT_DIR$/src/masks.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edgeDetection.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fileMan/fileAccess.h">
+    <entry file="file://$PROJECT_DIR$/src/masks.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#128#150#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edgeDetection.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="375">
+          <caret line="30" column="99" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fileMan/fileAccess.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/imgStruct.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inverter.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inverter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/greyscale.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/greyscale.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -11,6 +11,12 @@ struct img {
     int height;
 };
 
-enum imgProcType {EDGE};
+struct imgColour {
+    uint8_t *imgArray[3];
+    int width;
+    int height;
+};
+
+enum imgProcType {EDGE, INVERT};
 
 #endif //IMAGEPROCESSING_IMGSTRUCT_H
