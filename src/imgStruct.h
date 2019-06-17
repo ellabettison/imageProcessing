@@ -6,15 +6,17 @@
 #include <stdint.h>
 
 struct img {
-    uint8_t *imgArray;
+    unsigned char *imgArray;
     int width;
     int height;
+    unsigned char *header;
 };
 
 struct imgColour {
-    uint8_t *imgArray[3];
+    unsigned char **imgArray;
     int width;
     int height;
+    unsigned char *header;
 };
 
 enum imgProcType {EDGE, INVERT};

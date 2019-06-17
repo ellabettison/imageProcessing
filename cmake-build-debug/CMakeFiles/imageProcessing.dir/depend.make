@@ -8,15 +8,28 @@ CMakeFiles/imageProcessing.dir/src/edgeDetection.c.o: ../src/masks.h
 
 CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.o: ../src/fileMan/fileAccess.c
 CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.o: ../src/fileMan/fileAccess.h
+CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.o: ../src/imgStruct.h
+
+CMakeFiles/imageProcessing.dir/src/greyscale.c.o: ../src/greyscale.c
+CMakeFiles/imageProcessing.dir/src/greyscale.c.o: ../src/greyscale.h
+CMakeFiles/imageProcessing.dir/src/greyscale.c.o: ../src/imgStruct.h
+
+CMakeFiles/imageProcessing.dir/src/inverter.c.o: ../src/edgeDetection.h
+CMakeFiles/imageProcessing.dir/src/inverter.c.o: ../src/imgStruct.h
+CMakeFiles/imageProcessing.dir/src/inverter.c.o: ../src/inverter.c
+CMakeFiles/imageProcessing.dir/src/inverter.c.o: ../src/masks.h
 
 CMakeFiles/imageProcessing.dir/src/main.c.o: ../src/edgeDetection.h
 CMakeFiles/imageProcessing.dir/src/main.c.o: ../src/fileMan/fileAccess.h
+CMakeFiles/imageProcessing.dir/src/main.c.o: ../src/greyscale.h
 CMakeFiles/imageProcessing.dir/src/main.c.o: ../src/imgStruct.h
+CMakeFiles/imageProcessing.dir/src/main.c.o: ../src/inverter.h
 CMakeFiles/imageProcessing.dir/src/main.c.o: ../src/main.c
 CMakeFiles/imageProcessing.dir/src/main.c.o: ../src/utils.h
 
 CMakeFiles/imageProcessing.dir/src/masks.c.o: ../src/masks.c
 
+CMakeFiles/imageProcessing.dir/src/utils.c.o: ../src/imgStruct.h
 CMakeFiles/imageProcessing.dir/src/utils.c.o: ../src/main.h
 CMakeFiles/imageProcessing.dir/src/utils.c.o: ../src/utils.c
 CMakeFiles/imageProcessing.dir/src/utils.c.o: ../src/utils.h

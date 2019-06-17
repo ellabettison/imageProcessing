@@ -2,11 +2,9 @@
 #ifndef IMAGEPROCESSING_UTILS_H
 #define IMAGEPROCESSING_UTILS_H
 
-/*
-#include "../libjpeg/jpeg-6b/jmorecfg.h"
+#include "imgStruct.h"
 
-void writeImage(char * fileName, unsigned char *imageBuffer);
+void initialiseImg(struct img *image, int width, int height);
+void initialiseImgCol(struct imgColour *image, int width, int height);
 
-unsigned char * readImage(char * fileName);*/
-
-#endif //IMAGEPROCESSING_UTILS_H
+#endif

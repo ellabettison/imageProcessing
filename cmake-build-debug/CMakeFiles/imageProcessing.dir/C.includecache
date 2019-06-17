@@ -6,17 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/homes/efb4518/Documents/picproc/imageProcessing/src/fileMan/fileAccess.c
-fileAccess.h
-/homes/efb4518/Documents/picproc/imageProcessing/src/fileMan/fileAccess.h
-stdio.h
--
-stdlib.h
--
-stdint.h
--
+/homes/efb4518/Documents/picproc/imageProcessing/src/edgeDetection.h
+imgStruct.h
+/homes/efb4518/Documents/picproc/imageProcessing/src/imgStruct.h
 
 /homes/efb4518/Documents/picproc/imageProcessing/src/fileMan/fileAccess.h
 stdint.h
 -
+
+/homes/efb4518/Documents/picproc/imageProcessing/src/greyscale.h
+imgStruct.h
+/homes/efb4518/Documents/picproc/imageProcessing/src/imgStruct.h
+
+/homes/efb4518/Documents/picproc/imageProcessing/src/imgStruct.h
+stdint.h
+-
+
+/homes/efb4518/Documents/picproc/imageProcessing/src/inverter.h
+
+/homes/efb4518/Documents/picproc/imageProcessing/src/main.c
+stdio.h
+-
+stdlib.h
+-
+utils.h
+/homes/efb4518/Documents/picproc/imageProcessing/src/utils.h
+edgeDetection.h
+/homes/efb4518/Documents/picproc/imageProcessing/src/edgeDetection.h
+inverter.h
+/homes/efb4518/Documents/picproc/imageProcessing/src/inverter.h
+imgStruct.h
+/homes/efb4518/Documents/picproc/imageProcessing/src/imgStruct.h
+fileMan/fileAccess.h
+/homes/efb4518/Documents/picproc/imageProcessing/src/fileMan/fileAccess.h
+greyscale.h
+/homes/efb4518/Documents/picproc/imageProcessing/src/greyscale.h
+utils.h
+/homes/efb4518/Documents/picproc/imageProcessing/src/utils.h
+
+/homes/efb4518/Documents/picproc/imageProcessing/src/utils.h
+imgStruct.h
+/homes/efb4518/Documents/picproc/imageProcessing/src/imgStruct.h
 

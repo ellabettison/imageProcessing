@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug"/>
+				<Option working_dir="/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug"/>
+				<Option working_dir="/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug"/>
+				<Option working_dir="/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="imageProcessing">
-				<Option output="/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/imageProcessing" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug"/>
+				<Option output="/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/imageProcessing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 imageProcessing"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 imageProcessing"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="imageProcessing/fast">
-				<Option output="/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/imageProcessing" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug"/>
+				<Option output="/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/imageProcessing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,59 +71,59 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 imageProcessing/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/homes/rd3918/CLionProjects/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 imageProcessing/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/edgeDetection.c">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/edgeDetection.c">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/edgeDetection.h">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/edgeDetection.h">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/fileMan/fileAccess.c">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/fileMan/fileAccess.c">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/fileMan/fileAccess.h">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/fileMan/fileAccess.h">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/greyscale.c">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/greyscale.c">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/greyscale.h">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/greyscale.h">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/imgStruct.h">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/imgStruct.h">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/inverter.c">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/inverter.c">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/inverter.h">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/inverter.h">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/main.c">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/main.c">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/main.h">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/main.h">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/masks.c">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/masks.c">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/masks.h">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/masks.h">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/utils.c">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/utils.c">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/src/utils.h">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/src/utils.h">
 			<Option target="imageProcessing"/>
 		</Unit>
-		<Unit filename="/homes/rd3918/CLionProjects/imageProcessing/CMakeLists.txt">
+		<Unit filename="/homes/efb4518/Documents/picproc/imageProcessing/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

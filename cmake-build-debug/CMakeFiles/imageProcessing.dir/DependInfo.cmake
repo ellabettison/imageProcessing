@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/homes/efb4518/Documents/picproc/imageProcessing/src/edgeDetection.c" "/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/edgeDetection.c.o"
   "/homes/efb4518/Documents/picproc/imageProcessing/src/fileMan/fileAccess.c" "/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.o"
+  "/homes/efb4518/Documents/picproc/imageProcessing/src/greyscale.c" "/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/greyscale.c.o"
+  "/homes/efb4518/Documents/picproc/imageProcessing/src/inverter.c" "/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/inverter.c.o"
   "/homes/efb4518/Documents/picproc/imageProcessing/src/main.c" "/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/main.c.o"
   "/homes/efb4518/Documents/picproc/imageProcessing/src/masks.c" "/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/masks.c.o"
   "/homes/efb4518/Documents/picproc/imageProcessing/src/utils.c" "/homes/efb4518/Documents/picproc/imageProcessing/cmake-build-debug/CMakeFiles/imageProcessing.dir/src/utils.c.o"

@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/imageProcessing.dir/src/utils.c.o"
   "CMakeFiles/imageProcessing.dir/src/edgeDetection.c.o"
   "CMakeFiles/imageProcessing.dir/src/fileMan/fileAccess.c.o"
+  "CMakeFiles/imageProcessing.dir/src/inverter.c.o"
+  "CMakeFiles/imageProcessing.dir/src/greyscale.c.o"
   "imageProcessing.pdb"
   "imageProcessing"
 )
