@@ -29,7 +29,6 @@ void processImage(char *inFileName, char *outFileName, enum imgProcType type){
             greyscale(structImageIn, greyImgOut);
             detectEdges(greyImgOut);
             greyToRGB(greyImgOut, linearImageOut);
-
             break;
         case INVERT:
             invert(structImageIn);
@@ -44,6 +43,6 @@ void processImage(char *inFileName, char *outFileName, enum imgProcType type){
 }
 
 int main() {
-    processImage("/homes/efb4518/Documents/picproc/imageProcessing/src/tiger.bmp", "/homes/efb4518/Documents/picproc/imageProcessing/src/outpic.bmp", GREYSCALE);
+    processImage("/homes/efb4518/Documents/picproc/imageProcessing/src/cat.bmp", "/homes/efb4518/Documents/picproc/imageProcessing/src/outpic3.bmp", EDGE);
     return 0;
 }
