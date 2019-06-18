@@ -7,27 +7,30 @@ void detectEdges(struct img * imagein){
 
 
         // starts at one
-        for (int i = 1; i < imagein->height - 1; i++) {
-            for (int j = 1; j < imagein->width - 1; j++) {
+        for (int i = 2; i < imagein->height - 2; i++) {
+            for (int j = 2; j < imagein->width - 2; j++) {
 
                 unsigned char newVal = 0;
 
                 // goes through each convolution direction
-                for (int t = 0; t < 8; t++) {
+                for (int t = 0; t < 2; t++) {
                     int tempVal = 0;
 
-                    for (int x = -1; x <= 1; x++) {
-                        for (int y = -1; y <= 1; y++) {
+                    for (int x = -2; x <= 2; x++) {
+                        for (int y = -2; y <= 2; y++) {
 
                             int pixel = imagein->imgArray[(j * imagein->width) + i + (y * imagein->width) + x];
-                            tempVal += (unsigned char) (pixel * prewittMask[t][y][x]);
+                            tempVal += (pixel * sobelMask[t][y][x]);
                         }
                     }
-                    if (abs(tempVal) > 220){
-                        newVal += abs(tempVal);
+                    if (abs(tempVal) > 25000000){
+                        newVal += abs(tempVal)/1000000 ;
+                        if (newVal > 255){
+                            newVal = 255;
+                        }
                     }
                 }
-                imagein->imgArray[(j * imagein->width) + i] += newVal / 8;
+                imagein->imgArray[(j * imagein->width) + i] = newVal;
             }
 
     }
