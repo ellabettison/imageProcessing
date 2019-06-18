@@ -17,7 +17,6 @@ CMakeFiles/imageProcessing.dir/src/greyscale.c.o: ../src/imgStruct.h
 CMakeFiles/imageProcessing.dir/src/inverter.c.o: ../src/edgeDetection.h
 CMakeFiles/imageProcessing.dir/src/inverter.c.o: ../src/imgStruct.h
 CMakeFiles/imageProcessing.dir/src/inverter.c.o: ../src/inverter.c
-CMakeFiles/imageProcessing.dir/src/inverter.c.o: ../src/masks.h
 
 CMakeFiles/imageProcessing.dir/src/main.c.o: ../src/edgeDetection.h
 CMakeFiles/imageProcessing.dir/src/main.c.o: ../src/fileMan/fileAccess.h

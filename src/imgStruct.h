@@ -19,6 +19,6 @@ struct imgColour {
     unsigned char *header;
 };
 
-enum imgProcType {EDGE, INVERT};
+enum imgProcType {EDGE, INVERT, GREYSCALE};
 
 #endif //IMAGEPROCESSING_IMGSTRUCT_H

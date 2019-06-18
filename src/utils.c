@@ -5,7 +5,7 @@
 #include "imgStruct.h"
 
 void initialiseImg(struct img *image, int width, int height){
-    image->imgArray = calloc((size_t) (width * height), sizeof(unsigned char));
+    image->imgArray = calloc((size_t) (width * height * 3), sizeof(unsigned char));
     image->height = height;
     image->width = width;
     image->header = NULL;
@@ -22,16 +22,23 @@ void initialiseImgCol(struct imgColour *image, int width, int height){
     image->header = NULL;
 }
 
-struct img * imgColourLinearisation(struct imgColour image) {
-    struct img *linearImage = malloc(sizeof(struct img));
-    initialiseImg(linearImage, image.width, image.height);
-    linearImage->header = image.header;
-    for (int i = 0; i < image.height; i++) {
-        for (int j = 0; j < image.width; j++) {
+void imgColourLinearisation(struct imgColour *image, struct img * linearImage) {
+    int l = 0;
+    //struct img *linearImage = malloc(sizeof(struct img));
+    //initialiseImg(linearImage, image.width, image.height);
+    //linearImage->header = image.header;
+    for (int i = 0; i < image->height * image->width; i++) {
             for (int k = 0; k < 3; k++) {
-                linearImage->imgArray[(image.height *i) + (j*3) +k] = image.imgArray[image.height * i + j][k];
+                linearImage->imgArray[l] = image->imgArray[i][k];
+                l++;
             }
+    }
+}
+
+void greyToRGB(struct img *image, struct img *outImg){
+    for (int i = 0; i < image->height * image->width; i++) {
+        for (int k = 0; k < 3; k++) {
+            outImg->imgArray[i * 3 + k] = image->imgArray[i];
         }
     }
-    return linearImage;
 }

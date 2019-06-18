@@ -5,6 +5,8 @@
 #ifndef PROJECT_INVERTER_H
 #define PROJECT_INVERTER_H
 
-void invert(struct imgColour imagein);
+#include "imgStruct.h"
+
+void invert(struct imgColour *imagein);
 
 #endif //PROJECT_INVERTER_H

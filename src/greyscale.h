@@ -3,5 +3,5 @@
 
 #include "imgStruct.h"
 
-void greyscale(struct imgColour imagein, struct img imageout);
+void greyscale(struct imgColour *imagein, struct img * imageout);
 #endif //PROJECT_GREYSCALE_H

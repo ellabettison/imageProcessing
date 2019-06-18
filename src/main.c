@@ -3,7 +3,6 @@
 #include "utils.h"
 #include "edgeDetection.h"
 #include "inverter.h"
-//#include "../libjpeg/jpeg-6b/jmorecfg.h"
 #include "imgStruct.h"
 #include "fileMan/fileAccess.h"
 #include "greyscale.h"
@@ -21,25 +20,30 @@ void processImage(char *inFileName, char *outFileName, enum imgProcType type){
     initialiseImg(linearImageOut, structImageIn->width, structImageIn->height);
     linearImageOut->header = structImageIn->header;
 
+    struct img *greyImgOut = malloc(sizeof(struct img));
+    initialiseImg(greyImgOut, structImageIn->width, structImageIn->height);
+    greyImgOut->header = structImageIn->header;
+
     switch (type) {
         case EDGE: ;
-            struct img *greyImgOut = calloc(1, sizeof(struct img));
-            initialiseImg(greyImgOut, structImageIn->width, structImageIn->height);
-
-            greyscale(*structImageIn, *greyImgOut);
-            detectEdges(greyImgOut, (struct img *) structImageOut);
-
+            greyscale(structImageIn, greyImgOut);
+            detectEdges(greyImgOut);
+            greyToRGB(greyImgOut, linearImageOut);
 
             break;
         case INVERT:
-            //invert(*structImageIn);
-            linearImageOut = imgColourLinearisation(*structImageIn);
+            invert(structImageIn);
+            imgColourLinearisation(structImageIn, linearImageOut);
+            break;
+        case GREYSCALE: ;
+            greyscale(structImageIn, greyImgOut);
+            greyToRGB(greyImgOut, linearImageOut);
     }
 
     writeFile(outFileName, *linearImageOut);
 }
 
 int main() {
-    processImage("/homes/efb4518/Documents/picproc/imageProcessing/src/tiger.bmp", "/homes/efb4518/Documents/picproc/imageProcessing/src/outpic.bmp", INVERT);
+    processImage("/homes/efb4518/Documents/picproc/imageProcessing/src/tiger.bmp", "/homes/efb4518/Documents/picproc/imageProcessing/src/outpic.bmp", EDGE);
     return 0;
 }

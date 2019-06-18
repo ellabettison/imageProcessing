@@ -34,9 +34,9 @@ struct imgColour *readFile(char * filename) {
     for(i = 0; i < size; i += 3)
         {
         // converts BGR to RGB
-            tmp = data[i];
-            data[i] = data[i+2];
-            data[i+2] = tmp;
+//            tmp = data[i];
+//            data[i] = data[i+2];
+//            data[i+2] = tmp;
             newImg[i/3] = (unsigned char *) calloc(3, sizeof(unsigned char));
         }
 
