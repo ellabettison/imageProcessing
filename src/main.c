@@ -44,6 +44,6 @@ void processImage(char *inFileName, char *outFileName, enum imgProcType type){
 }
 
 int main() {
-    processImage("/homes/efb4518/Documents/picproc/imageProcessing/src/tiger.bmp", "/homes/efb4518/Documents/picproc/imageProcessing/src/outpic.bmp", EDGE);
+    processImage("/homes/efb4518/Documents/picproc/imageProcessing/src/tiger.bmp", "/homes/efb4518/Documents/picproc/imageProcessing/src/outpic.bmp", GREYSCALE);
     return 0;
 }

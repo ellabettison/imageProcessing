@@ -3,8 +3,11 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
+#include <FreeImage.h>
 
 #include "../imgStruct.h"
+
+static int headerSize = 54;
 
 struct imgColour *readFile(char * filename) {
 
@@ -14,8 +17,8 @@ struct imgColour *readFile(char * filename) {
             printf("could not access file");
             return NULL;
         }
-        unsigned char *info = calloc(54 , sizeof(unsigned char));
-        fread(info, sizeof(unsigned char), 54, f); // read the 54-byte header
+        unsigned char *info = calloc((size_t) headerSize, sizeof(unsigned char));
+        fread(info, sizeof(unsigned char), (size_t) headerSize, f); // read the 54-byte header
 
         // extract image height and width from header
         int width = *(int*)&info[18];
@@ -59,17 +62,16 @@ struct imgColour *readFile(char * filename) {
 
 int writeFile(char * filename, struct img image) {
 
-    FILE* f = fopen(filename, "wb");
+    FILE* f = fopen(filename, "a+b");
     if(!f){
         printf("could not access file");
         return 0;
     }
 
-    int headerSize = 54;
     //image.header = realloc(image.header, (size_t) (image.height * image.width * 3 + headerSize));
     //memcpy(image.header + headerSize, image.imgArray, sizeof(image.imgArray));
 
-    fwrite(image.header, sizeof(unsigned char), 54 , f);
+    fwrite(image.header, sizeof(unsigned char), (size_t) headerSize, f);
     fwrite(image.imgArray, sizeof(unsigned char), (size_t) image.width * image.height * 3, f);
     fclose(f);
 

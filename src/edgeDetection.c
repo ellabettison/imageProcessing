@@ -19,7 +19,7 @@ void detectEdges(struct img * imagein){
                         for (int y = -1; y <= 1; y++) {
 
                             unsigned char pixel = imagein->imgArray[(j * imagein->width) + i + (y * imagein->width) + x];
-                            newVal += pixel * prewittMask[t][x][y];
+                            newVal += pixel * prewittMask[t][y][x];
                         }
                     }
                 }
